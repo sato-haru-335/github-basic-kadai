@@ -1,0 +1,30 @@
+PS C:\Users\totet\OneDrive\ドキュメント\git_challenge> git init
+Initialized empty Git repository in C:/Users/totet/OneDrive/ドキュメント/git_challenge/.git/
+PS C:\Users\totet\OneDrive\ドキュメント\git_challenge> git add .
+PS C:\Users\totet\OneDrive\ドキュメント\git_challenge> git commit -m "hello_world.txtを追加”
+[main (root-commit) 714147a] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\totet\OneDrive\ドキュメント\git_challenge> git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\totet\OneDrive\ドキュメント\git_challenge> git log                              
+commit 714147a0f3a9ef8e274c29ea439eb4e6613e124c (HEAD -> main)
+Author: sato-haru-335 <totetotenonone@yahoo.co.jp>
+Date:   Tue Nov 19 20:25:56 2024 +0900
+
+    hello_world.txtを追加
+PS C:\Users\totet\OneDrive\ドキュメント\git_challenge> git log --oneline
+714147a (HEAD -> main) hello_world.txtを追加
+PS C:\Users\totet\OneDrive\ドキュメント\git_challenge> git add .
+PS C:\Users\totet\OneDrive\ドキュメント\git_challenge> git commit -m "日本語訳を追記”
+[main d1738c8] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\totet\OneDrive\ドキュメント\git_challenge> git log --oneline
+d1738c8 (HEAD -> main) 日本語訳を追記
+714147a hello_world.txtを追加
